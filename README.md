@@ -1,6 +1,6 @@
-# {{ cookiecutter.project_name }}
+# Medicare Claims Pricer Repo
 
-{{ cookiecutter.project_description }}
+Repository containing Original Medicare claims pricing software (also partially available on cms.gov) to fulfill a time-sensitive FOIA request.
 
 ## About the Project
 
