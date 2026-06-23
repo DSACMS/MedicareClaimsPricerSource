@@ -6,7 +6,7 @@ Repository containing Original Medicare claims pricing software (also partially 
 
 <!-- This should be a longer-form description of the project. It can include history, background, details, problem statements, links to design documents or other supporting materials, or any other information/context that a user or contributor might be interested in. -->
 
-**{project statement}**
+This repository provides executable JAR binaries for CMS's Original Medicare claims pricing applications. Each pricer implements a distinct Medicare fee-for-service payment system and exposes a REST API for calculating claim reimbursement amounts.
 
 <!--
 ### Project Mission
@@ -27,18 +27,24 @@ Provide the team's mission and how they work together. -->
 
 A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md).
 
-<!--
 ## Repository Structure
 
-TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time.
+Each directory contains an executable JAR binary and usage instructions for one pricer:
 
-**{list directories and descriptions}**
+| Directory | Pricer |
+|---|---|
+| [`ESRD Pricer/`](ESRD%20Pricer/README.md) | End-Stage Renal Disease Pricer |
+| [`FQHC Pricer/`](FQHC%20Pricer/README.md) | Federally Qualified Health Center Pricer |
+| [`HHA Pricer/`](HHA%20Pricer/README.md) | Home Health Agency Pricer |
+| [`Hospice Pricer/`](Hospice%20Pricer/README.md) | Hospice Pricer |
+| [`IPF Pricer/`](IPF%20Pricer/README.md) | Inpatient Psychiatric Facility Pricer |
+| [`IPPS Pricer/`](IPPS%20Pricer/README.md) | Inpatient Prospective Payment System Pricer |
+| [`IRF Pricer/`](IRF%20Pricer/README.md) | Inpatient Rehabilitation Facility Pricer |
+| [`LTCH Pricer/`](LTCH%20Pricer/README.md) | Long-Term Care Hospital Pricer |
+| [`OPPS Pricer/`](OPPS%20Pricer/README.md) | Outpatient Prospective Payment System Pricer |
+| [`SNF Pricer/`](SNF%20Pricer/README.md) | Skilled Nursing Facility Pricer |
 
-TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels.
-
-**{list of .md at top directory and descriptions}**
-
--->
+All pricers require **Java 17** and run as a local REST API on port 8080. See each directory's README for usage instructions.
 
 <!--
 # Development and Software Delivery Lifecycle
@@ -124,7 +130,7 @@ For more information about our Security, Vulnerability, and Responsible Disclosu
 
 A Software Bill of Materials (SBOM) is a formal record containing the details and supply chain relationships of various components used in building software.
 
-In the spirit of [Executive Order 14028 - Improving the Nation’s Cyber Security](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/information-technology-category/it-security/executive-order-14028), a SBOM for this repository is provided here: https://github.com/{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/network/dependencies.
+In the spirit of [Executive Order 14028 - Improving the Nation’s Cyber Security](https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/information-technology-category/it-security/executive-order-14028), a SBOM for this repository is provided here: https://github.com/DSACMS/MedicareClaimsPricerSource/network/dependencies.
 
 For more information and resources about SBOMs, visit: https://www.cisa.gov/sbom.
 
