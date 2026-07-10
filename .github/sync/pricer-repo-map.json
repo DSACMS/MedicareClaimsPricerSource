@@ -1,0 +1,14 @@
+{
+  "repos": [
+    { "folder": "ESRD Pricer", "repo": "medicare-payment-modernization/esrd-pricer" },
+    { "folder": "FQHC Pricer", "repo": "medicare-payment-modernization/fqhc-pricer" },
+    { "folder": "HHA Pricer", "repo": "medicare-payment-modernization/hha-pricer" },
+    { "folder": "Hospice Pricer", "repo": "medicare-payment-modernization/hospice-pricer" },
+    { "folder": "IPF Pricer", "repo": "medicare-payment-modernization/ipf-pricer" },
+    { "folder": "IPPS Pricer", "repo": "medicare-payment-modernization/ipps-pricer" },
+    { "folder": "IRF Pricer", "repo": "medicare-payment-modernization/irf-pricer" },
+    { "folder": "LTCH Pricer", "repo": "medicare-payment-modernization/ltch-pricer" },
+    { "folder": "OPPS Pricer", "repo": "medicare-payment-modernization/opps-pricer" },
+    { "folder": "SNF Pricer", "repo": "medicare-payment-modernization/snf-pricer" }
+  ]
+}
