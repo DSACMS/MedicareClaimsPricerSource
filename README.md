@@ -33,16 +33,16 @@ Each directory contains an executable JAR binary and usage instructions for one 
 
 | Directory | Pricer |
 |---|---|
-| [`ESRD Pricer/`](ESRD%20Pricer/README.md) | End-Stage Renal Disease Pricer |
-| [`FQHC Pricer/`](FQHC%20Pricer/README.md) | Federally Qualified Health Center Pricer |
-| [`HHA Pricer/`](HHA%20Pricer/README.md) | Home Health Agency Pricer |
-| [`Hospice Pricer/`](Hospice%20Pricer/README.md) | Hospice Pricer |
-| [`IPF Pricer/`](IPF%20Pricer/README.md) | Inpatient Psychiatric Facility Pricer |
-| [`IPPS Pricer/`](IPPS%20Pricer/README.md) | Inpatient Prospective Payment System Pricer |
-| [`IRF Pricer/`](IRF%20Pricer/README.md) | Inpatient Rehabilitation Facility Pricer |
-| [`LTCH Pricer/`](LTCH%20Pricer/README.md) | Long-Term Care Hospital Pricer |
-| [`OPPS Pricer/`](OPPS%20Pricer/README.md) | Outpatient Prospective Payment System Pricer |
-| [`SNF Pricer/`](SNF%20Pricer/README.md) | Skilled Nursing Facility Pricer |
+| [`ESRD Pricer/`](ESRD_Pricer/README.md) | End-Stage Renal Disease Pricer |
+| [`FQHC Pricer/`](FQHC_Pricer/README.md) | Federally Qualified Health Center Pricer |
+| [`HHA Pricer/`](HHA_Pricer/README.md) | Home Health Agency Pricer |
+| [`Hospice Pricer/`](Hospice_Pricer/README.md) | Hospice Pricer |
+| [`IPF Pricer/`](IPF_Pricer/README.md) | Inpatient Psychiatric Facility Pricer |
+| [`IPPS Pricer/`](IPPS_Pricer/README.md) | Inpatient Prospective Payment System Pricer |
+| [`IRF Pricer/`](IRF_Pricer/README.md) | Inpatient Rehabilitation Facility Pricer |
+| [`LTCH Pricer/`](LTCH_Pricer/README.md) | Long-Term Care Hospital Pricer |
+| [`OPPS Pricer/`](OPPS_Pricer/README.md) | Outpatient Prospective Payment System Pricer |
+| [`SNF Pricer/`](SNF_Pricer/README.md) | Skilled Nursing Facility Pricer |
 
 All pricers require **Java 17** and run as a local REST API on port 8080. See each directory's README for usage instructions.
 
