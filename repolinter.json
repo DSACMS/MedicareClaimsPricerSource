@@ -1,0 +1,57 @@
+{
+  "extends": "https://raw.githubusercontent.com/DSACMS/repo-scaffolder/main/tier0/%7B%7Bcookiecutter.project_slug%7D%7D/repolinter.json",
+  "$schema": "https://raw.githubusercontent.com/todogroup/repolinter/master/rulesets/schema.json",
+  "version": 2,
+  "axioms": {
+    "linguist": "language",
+    "licensee": "license",
+    "packagers": "packager"
+  },
+  "rules": {
+    "security-file-exists": {
+      "level": "error"
+    },
+    "readme-contains-core-team": {
+      "level": "error"
+    },
+    "readme-contains-development-and-software-delivery-lifecycle": {
+      "level": "warning"
+    },
+    "readme-contains-contributing": {
+      "level": "warning"
+    },
+    "readme-contains-codeowners": {
+      "level": "warning"
+    },
+    "readme-contains-feedback": {
+      "level": "warning"
+    },
+    "readme-contains-project-vision": {
+      "level": "off"
+    },
+    "contributing-contains-getting-started": {
+      "level": "error"
+    },
+    "contributing-contains-building-dependencies": {
+      "level": "error"
+    },
+    "contributing-contains-building-the-project": {
+      "level": "error"
+    },
+    "contributing-contains-writing-issues": {
+      "level": "error"
+    },
+    "contributing-contains-policies": {
+      "level": "error"
+    },
+    "contributing-contains-open-source-policy": {
+      "level": "error"
+    },
+    "contributing-contains-security-and-responsible-disclosure-policy": {
+      "level": "error"
+    },
+    "contributing-contains-public-domain": {
+      "level": "error"
+    }
+  }
+}
