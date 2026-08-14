@@ -1,0 +1,26 @@
+supportedYears:
+  - 2027
+  - 2026
+  - 2025
+  - 2024
+  - 2023
+  - 2022
+  - 2021
+  - 2020
+  - 2019
+
+info:
+  pricerName: IPPS
+
+server:
+  rootPath: /ipps-pricer
+  applicationConnectors:
+    - type: http
+      port: 3000
+      idleTimeout: 70 seconds
+  adminConnectors:
+    - type: http
+      port: 3100
+
+csv:
+  validationEnabled: false
