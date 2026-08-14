@@ -1,0 +1,31 @@
+supportedYears:
+  - 2026
+  - 2025
+  - 2024
+  - 2023
+  - 2022
+  - 2021
+  - 2020
+  - 2019
+  - 2018
+  - 2017
+  - 2016
+  - 2015
+  - 2014
+
+info:
+  pricerName: FQHC
+
+server:
+  rootPath: /fqhc-pricer
+  applicationConnectors:
+    - type: http
+      port: 8000
+      idleTimeout: 70 seconds
+  adminConnectors:
+    - type: http
+      port: 8100
+
+filters:
+  contentLength:
+    maximumRequestSize: 409600

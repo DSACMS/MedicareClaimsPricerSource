@@ -1,0 +1,21 @@
+supportedYears:
+  - 2020
+  - 2021
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+
+info:
+  pricerName: LTCH
+
+server:
+  rootPath: /ltch-pricer
+  applicationConnectors:
+    - type: http
+      port: 8000
+      idleTimeout: 70 seconds
+  adminConnectors:
+    - type: http
+      port: 8100

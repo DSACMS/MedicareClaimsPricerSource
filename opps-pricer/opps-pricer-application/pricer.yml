@@ -1,0 +1,28 @@
+supportedYears:
+  - 2020
+  - 2021
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+
+info:
+  pricerName: OPPS
+
+server:
+  rootPath: /opps-pricer
+  applicationConnectors:
+    - type: http
+      port: 3000
+      idleTimeout: 70 seconds
+  adminConnectors:
+    - type: http
+      port: 3100
+
+csv:
+  validationEnabled: false
+
+filters:
+  contentLength:
+    maximumRequestSize: 409600

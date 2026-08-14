@@ -1,0 +1,26 @@
+supportedYears:
+  - 2020
+  - 2021
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+
+info:
+  pricerName: Hospice
+
+server:
+  rootPath: /hospice-pricer
+  applicationConnectors:
+    - type: http
+      port: 8000
+      idleTimeout: 70 seconds
+    # See README.md for HTTPS setup
+    # - type: https
+    #   port: 8443
+    #   keyStorePath: keystore.jks
+    #   keyStorePassword: PASSWORD
+  adminConnectors:
+    - type: http
+      port: 8100
