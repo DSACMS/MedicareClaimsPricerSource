@@ -396,17 +396,6 @@ Before outbounding this repository, it’s important that the appropriate stakeh
 
 If all boxes have been checked, please proceed to the **Flipping the Switch** section below this one, otherwise, this section must be filled out and approved by the indicated stakeholders before public release.
 
-After reviewing the materials prepared by the team that is working to open source the product, the business owner signs off on a risk acceptance for open-sourcing the software product.
-
-Requesting sign off from key people on this request.
-
-| Reviewer Organization          | Reviewer Name                                   | Reviewer's Recommendation                                                     |
-| ------------------------------ | ----------------------------------------------- | ----------------------------------------------------------------------------- |
-| Code Reviewer's Recommendation | CODE REVIEWER 1 CODE REVIEWER 2 CODE REVIEWER 3 | [Approved/Needs Approval] [Approved/Needs Approval] [Approved/Needs Approval] |
-| ISSO                           | ISSO REVIEWER                                   | [Approved/Needs Approval]                                                     |
-| ISG Technical Approval         | ISG REVIEWER                                    | [Approved/Needs Approval]                                                     |
-| Business Owner(s)              | BUSINESS OWNER 1 BUSINESS OWNER 2               | [Approved/Needs Approval] [Approved/Needs Approval]                           |
-
 ### Flipping the Switch: Making the Repository Public
 
 Once the repository has passed outbound review, we are ready “flip the switch” and officially make it public. Once made public, there are a couple of actions that need to be taken:
@@ -467,11 +456,3 @@ Be sure to include the following information:
 - [ ] **Send a launch announcement email**
 
 - [ ] **Add launch announcement to a Confluence Wiki Page**
-
-#### Tracking 📈
-
-Add your project to our inventories.
-
-- [ ] **Add to https://github.com/dsacms/open projects inventory**
-
-- [ ] **Add code.json to repository and sent over a pull request to [code.gov](https://code.gov/)**
